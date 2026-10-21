@@ -1,5 +1,5 @@
 import React from 'react'
-import { toast, ToastContainer } from 'react-toastify'
+import { toast } from 'react-toastify'
 
 const About = () => {
 const massage = ()=> toast("Wow So Nice")
@@ -8,7 +8,7 @@ const massage = ()=> toast("Wow So Nice")
     <div className='main'>
       <button className='btn'  onClick={massage}>
         Click Me</button>
-      <ToastContainer/>
+   
     </div>
   )
 }
